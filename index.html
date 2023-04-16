@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="normalize.css"/>
+    <link rel="stylesheet" href="src/pages/home/styles.css"/>
+    <link rel="stylesheet" href="src/shared/styles.css" />
+  </head>
+
+  <body class="background">
+    <header class="mainHeaderLayout"><h1 class="pageHeader">Game Library</h1></header>
+    <main class="mainBodyLayout">
+      <section class="formContainer">
+        <form id="formgames" action="#">
+          <div>
+            <input type="text" placeholder="Find your games" id="searchInput" />
+          </div>
+          <div class="buttonContainer">
+            <button id="submit" type="submit">Find</button>
+          </div>
+        </form>
+      </section>
+      <section id="list"></section>
+    </main>
+    <footer class="footer">
+      <p>By It Crowd 2023</p>
+    </footer>
+
+    <script type="module" src="src/pages/home/index.js"></script>
+  </body>
+</html>
