@@ -1,0 +1,28 @@
+.background {
+    background-color: #3C486B;
+}
+.mainHeaderLayout {
+    display: flex;
+    padding-left: 20px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: #F45050;
+}
+.mainBodyLayout {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.pageHeader {
+    color: #F0F0F0;
+    text-align: center;
+}
+
+.footer {
+    padding: 20px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background-color: #7A6B83;
+    bottom: 0;
+}
