@@ -56,7 +56,9 @@ const rendeCards = (data) => {
 };
 
 form.addEventListener("submit", () => {
-  searchGamesBy(text);
+  if (text !== "") {
+    searchGamesBy(text);
+  }
 });
 
 searchInput.addEventListener("input", (event) => {
